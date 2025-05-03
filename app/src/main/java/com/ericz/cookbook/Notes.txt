@@ -1,0 +1,56 @@
+ericz.cookbook/
+  app/
+    CookbookApplication.kt
+  data/
+    dao/
+      IngredientDao.kt
+      InstructionDao.kt
+      RecipeDao.kt
+      RecipeIngredientDao.kt
+    database/
+      CookbookDatabase.kt
+    entities/
+      Ingredient.kt
+      Instruction.kt
+      Recipe.kt
+      RecipeIngredientDao.kt
+  navigation/
+    Navigation.kt
+  ui/
+    screens/
+      AddIngredientDialog.kt
+      AddIngredientScreen.kt
+      AddRecipeScreen.kt
+      RecipeDetailScreen.kt
+      RecipeListScreen.kt
+  viewmodel/
+    AddIngredientViewModel.kt
+    AddRecipeViewModel.kt
+    GenericViewModelFactory.kt
+    RecipeDetailViewModel.kt
+    RecipeViewModel.kt
+    ViewModelProviderUtils.kt
+  MainActivity.kt
+ericz.cookbook/(androidTest)
+ericz.cookbook/(test)
+  testutils/
+    TestData.kt
+    TestDatabaseProvider.kt
+
+
+Features:
+>Add Tests for everything (Daos, Viewmodels, Screens)
+>edit recipes
+>delete recipes
+>edit ingredients
+>delete ingredients
+>images for recipes
+>RecipeList - Sorting, filtering, paging
+>Nutrition Calculator
+>Cook mode? (screen not afking)
+>Categories for recipes (snack, lunch, breakfast, dinner etc.)
+>Recommendation system (for example need lunch with at least 50g protein)
+
+Always think about:
+>Scrollability
+>Tests
